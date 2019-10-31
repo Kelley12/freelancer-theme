@@ -6,6 +6,7 @@ description: "Write an awesome description for your new site here. You can edit 
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
+language: en
 
 # Google webmaster tools
 google_verify:
@@ -29,6 +30,14 @@ color:
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
+
+# Home Sections
+sections:
+  - title: Portfolio
+    filename: portfolio_grid.html
+  - title: About
+    filename: about.html
+    css-class: success
 
 # Footer settings
 footer:
@@ -57,6 +66,12 @@ address:
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+
+# 3rd Party Integrations
+
+# Set your Google Analytics id to receive `pageview` events.
+# google_analytics:      UA-XXXXXXXX-X
 
 # Build settings
 markdown: kramdown

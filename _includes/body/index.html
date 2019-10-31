@@ -1,0 +1,25 @@
+{% include body/nav.html %}
+{% include body/header.html %}
+
+{% for section in site.sections %}
+    <!-- {{section.title}} Section -->
+    {% if section.css-class %}
+    <section id="{{section.title | downcase | replace: ' ', '-'}}" class="{{section.css-class}}">
+    {% else %}
+    <section id="{{section.title | downcase | replace: ' ', '-'}}">
+    {% endif %}
+        {% include sections/{{section.filename}} %}
+    </section>
+{% endfor %}
+
+{% if site.contact == "static" %}
+    {% include contact/contact_static.html %}
+{% elsif site.contact == "disqus" %}
+    {% include contact/contact_disqus.html %}
+{% else %}
+    {% include contact/contact.html %}
+{% endif %}
+
+{% include body/footer.html %}
+{% include body/modals.html %}
+{% include body/js.html %}
