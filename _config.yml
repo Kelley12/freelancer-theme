@@ -9,6 +9,9 @@ skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 lang: en_US
 
+# Header Image
+header_image: "assets/img/profile.png"
+
 # Google webmaster tools
 google_verify:
 
