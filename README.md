@@ -4,14 +4,37 @@ Jekyll theme based on [Freelancer bootstrap theme](http://startbootstrap.com/tem
 
 ![Screenshot](assets/img/screenshot.png)
 
+## Installation
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "lucid-jekyll-theme"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: lucid-jekyll-theme
+```
+
+And then execute:
+
+```bash
+bundle
+```
+
+Or install it yourself as:
+
+```bash
+gem install lucid-jekyll-theme
+```
 
 ## How to use
 
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
+- Place a image in `/img/portfolio/`
+- Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
+- Create posts to display your projects. Use the follow as an example:
 
 ```txt
 ---
