@@ -52,9 +52,51 @@ description: The description of the project
 ---
 ```
 
+## Usage
+
+### Layouts
+
+#### Default
+
+The default theme is what is used for the main page
+
+### Includes
+
+The includes directory contains 3 folders: head, body, and sections
+
+#### Head
+
+The head directory contains all html files used in the `<head>` tag of the website.
+
+#### Body
+
+The body directory contains all html files used in the `<body>` tag of the website.
+
+#### Sections
+
+The sections directory contains all of the html files used to populate the home page. These files are added and ordered in `_config.yml`.
+
+For example:
+
+```yml
+sections:
+  - title: Portfolio
+    filename: portfolio_grid.html
+  - title: About
+    filename: about.html
+    css-class: success
+```
+
+The `Portfolio` section will be first using the `portfolio_grid.html` file in `_includes/sections/` followed by `About`.
+
+### Assets
+
+Used to store images for the background images and the portfolio section if used
+
 ## Demo
 
 View this jekyll theme in action [here](https://kelley12.github.io/lucid-jekyll-theme)
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/Kelley12/liminal-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
