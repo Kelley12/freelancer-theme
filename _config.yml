@@ -19,6 +19,7 @@ google_verify:
 bing_verify:
 
 # Contact form:
+# - none : Remove the contact form
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
