@@ -1,4 +1,4 @@
-# Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/kelley12/freelancer-theme.svg?branch=master)](https://travis-ci.org/kelley12/freelancer-theme/) ![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/Kelley12/liminal-jekyll-theme/blob/master/LICENSE)
+# Lucid Jekyll theme  [![Build Status](https://api.travis-ci.org/kelley12/lucid-jekyll-theme.svg?branch=master)](https://travis-ci.org/kelley12/lucid-jekyll-theme/) ![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/Kelley12/liminal-jekyll-theme/blob/master/LICENSE)
 
 Jekyll theme based on [Freelancer bootstrap theme](http://startbootstrap.com/template-overviews/freelancer/)
 
@@ -29,11 +29,11 @@ description: The description of the project
 
 ## Demo
 
-View this jekyll theme in action [here](https://kelley12.github.io/freelancer-theme)
+View this jekyll theme in action [here](https://kelley12.github.io/lucid-jekyll-theme)
 
 ## Screenshot
 
-![screenshot](https://raw.githubusercontent.com/kelley12/freelancer-theme/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/kelley12/lucid-jekyll-theme/master/screenshot.png)
 
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
