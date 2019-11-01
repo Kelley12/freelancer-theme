@@ -67,6 +67,10 @@ address:
 # Credits content
 credits: 'Lucid is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
 # 3rd Party Integrations
 
 # Set your Google Analytics id to receive `pageview` events.
