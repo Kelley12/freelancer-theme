@@ -1,12 +1,14 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name                    = "freelancer-theme-jekyll"
+  spec.name                    = "lucid-jekyll-theme"
   spec.version                 = "0.1.0"
   spec.authors                 = ["Blake Kelley"]
+  spec.email                   = ["blakekelley127@gmail.com"]
 
-  spec.summary                 = %q{Freelancer is a one page Bootstrap portfolio theme for freelancers.}
-  spec.homepage                = "https://kelley12.github.io/freelancer-theme"
+  spec.summary                 = %q{Lucid is a simple one page Bootstrap portfolio theme.}
+  spec.description             = "Lucid is a one page Jekyll theme based on the Freelancer bootstrap theme by Start Bootstrap"
+  spec.homepage                = "https://kelley12.github.io/lucid-jekyll-theme"
   spec.licenses                = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
@@ -16,7 +18,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
-  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.3"
   spec.add_runtime_dependency "jekyll-gist", "~> 1.5"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.12"

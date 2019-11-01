@@ -1,12 +1,16 @@
 # Site settings
-title: Freelancer
+title: Lucid
+author: Lucid Author
 email: your-email@domain.com
 url: https://example.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
-language: en
+lang: en_US
+
+# Header Image
+header_image: "assets/img/profile.png"
 
 # Google webmaster tools
 google_verify:
@@ -15,6 +19,7 @@ google_verify:
 bing_verify:
 
 # Contact form:
+# - none : Remove the contact form
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
@@ -64,8 +69,11 @@ address:
   - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Lucid is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
+# Plugins
+plugins:
+  - jekyll-seo-tag
 
 # 3rd Party Integrations
 

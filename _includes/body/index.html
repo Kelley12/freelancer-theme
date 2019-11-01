@@ -12,12 +12,14 @@
     </section>
 {% endfor %}
 
-{% if site.contact == "static" %}
-    {% include contact/contact_static.html %}
-{% elsif site.contact == "disqus" %}
-    {% include contact/contact_disqus.html %}
-{% else %}
-    {% include contact/contact.html %}
+{% if site.contact != "none" %}
+    {% if site.contact == "static" %}
+        {% include contact/contact_static.html %}
+    {% elsif site.contact == "disqus" %}
+        {% include contact/contact_disqus.html %}
+    {% else %}
+        {% include contact/contact.html %}
+    {% endif %}
 {% endif %}
 
 {% include body/footer.html %}
