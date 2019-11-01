@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name                    = "freelancer-theme-jekyll"
-  spec.version                 = "1.0.0"
-  spec.authors                 = ["Start Bootstrap"]
+  spec.version                 = "0.1.0"
+  spec.authors                 = ["Blake Kelley"]
 
   spec.summary                 = %q{Freelancer is a one page Bootstrap portfolio theme for freelancers.}
-  spec.homepage                = "https://github.com/jeromelachaud/freelancer-theme"
-  spec.licenses                = ["MIT"]
+  spec.homepage                = "https://kelley12.github.io/freelancer-theme"
+  spec.licenses                = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
 
