@@ -2,7 +2,9 @@
 
 Jekyll theme based on [Freelancer bootstrap theme](http://startbootstrap.com/template-overviews/freelancer/)
 
-![Screenshot](assets/img/screenshot.png)
+## Screenshot
+
+![Screenshot](assets/screenshot.png)
 
 ## Installation
 
@@ -32,7 +34,7 @@ gem install lucid-jekyll-theme
 
 ## How to use
 
-- Place a image in `/img/portfolio/`
+- Place a image in `/assets/img/portfolio/`
 - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
 - Create posts to display your projects. Use the follow as an example:
 
@@ -53,10 +55,6 @@ description: The description of the project
 ## Demo
 
 View this jekyll theme in action [here](https://kelley12.github.io/lucid-jekyll-theme)
-
-## Screenshot
-
-![screenshot](https://raw.githubusercontent.com/kelley12/lucid-jekyll-theme/master/screenshot.png)
 
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
