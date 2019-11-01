@@ -1,4 +1,4 @@
-# Lucid Jekyll theme  [![Build Status](https://api.travis-ci.org/kelley12/lucid-jekyll-theme.svg?branch=master)](https://travis-ci.org/kelley12/lucid-jekyll-theme/) ![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/Kelley12/liminal-jekyll-theme/blob/master/LICENSE)
+# Lucid Jekyll theme  [![Build Status](https://travis-ci.org/Kelley12/lucid-jekyll-theme.svg?branch=master)](https://travis-ci.org/kelley12/lucid-jekyll-theme/) ![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/Kelley12/lucid-jekyll-theme/blob/master/LICENSE)
 
 Jekyll theme based on [Freelancer bootstrap theme](http://startbootstrap.com/template-overviews/freelancer/)
 
