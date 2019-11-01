@@ -1,9 +1,10 @@
 language: ruby
-rvm:
-- 2.5
 
-install: gem install jekyll
-script: jekyll build
+install: 
+  - gem install jekyll bundler
+  - bundle install
+script: bundle exec jekyll build
 
+cache: bundler
 sudo: false
 exclude: [vendor]
