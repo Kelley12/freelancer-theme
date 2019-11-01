@@ -4,8 +4,10 @@ Gem::Specification.new do |spec|
   spec.name                    = "lucid-jekyll-theme"
   spec.version                 = "0.1.0"
   spec.authors                 = ["Blake Kelley"]
+  spec.email                   = ["blakekelley127@gmail.com"]
 
   spec.summary                 = %q{Lucid is a simple one page Bootstrap portfolio theme.}
+  spec.description             = "Lucid is a one page Jekyll theme based on the Freelancer bootstrap theme by Start Bootstrap"
   spec.homepage                = "https://kelley12.github.io/lucid-jekyll-theme"
   spec.licenses                = "MIT"
 
