@@ -23,7 +23,6 @@ a:active,
 a.active {
     outline: 0;
     color: $theme-primary;
-    border-radius: .5rem!important;
 }
 
 h1,
@@ -447,6 +446,7 @@ footer .footer-below {
 
 .navbar-nav>.active>a {
     background-color: $theme-primary !important;
+    border-radius: .5rem!important;
 }
 
 /* Fix modal mouse wheel issues */
