@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- body {
+body {
     overflow-x: hidden;
 }
 
@@ -23,6 +23,7 @@ a:active,
 a.active {
     outline: 0;
     color: $theme-primary;
+    border-radius: .5rem!important;
 }
 
 h1,
@@ -447,7 +448,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: $theme-secondary-dark !important;
+    background-color: $theme-primary !important;
 }
 
 /* Fix modal mouse wheel issues */
