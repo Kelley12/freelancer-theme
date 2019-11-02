@@ -4,7 +4,7 @@ Jekyll theme based on [Freelancer bootstrap theme](http://startbootstrap.com/tem
 
 ## Screenshot
 
-![Screenshot](/screenshot.png)
+![Screenshot](assets/img/screenshot.png)
 
 ## Installation
 
@@ -18,6 +18,12 @@ And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: lucid-jekyll-theme
+```
+
+If you are using this theme for GitHub pages, also ass this line to `_config.yml`:
+
+```yaml
+remote-theme: kelley12/lucid-jekyll-theme
 ```
 
 And then execute:
