@@ -5,12 +5,11 @@
 
 // variables.less
 $theme-primary: {{ site.color.primary | default: '#18bc9c' }};
-$theme-primary-rgb: {{ site.color.primary-rgb | default: '24,288,156' }};
 $theme-secondary: {{ site.color.secondary | default: '#18bc9c' }};
 $theme-secondary-dark: {{ site.color.secondary-dark | default: '#233140' }};
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "base",
-    "bootstrap.min"
+    "bootstrap.min",
+    "base"
 ;
