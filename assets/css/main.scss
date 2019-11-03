@@ -10,6 +10,6 @@ $theme-secondary-dark: {{ site.color.secondary-dark | default: '#233140' }};
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "bootstrap.min",
+    "bootstrap",
     "base"
 ;
