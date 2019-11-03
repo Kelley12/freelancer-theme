@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name                    = "lucid-jekyll-theme"
-  spec.version                 = "0.1.0"
+  spec.version                 = "0.1.3"
   spec.authors                 = ["Blake Kelley"]
   spec.email                   = ["blakekelley127@gmail.com"]
 
@@ -12,6 +12,8 @@ Gem::Specification.new do |spec|
   spec.licenses                = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
+  spec.metadata["source_code_uri"] = "https://github.com/Kelley12/lucid-jekyll-theme"
+
 
   spec.files                   = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^(assets|_(includes|layouts|posts)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)

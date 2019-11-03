@@ -18,7 +18,7 @@
     {% endif %}
 
     <!-- Custom Theme JavaScript -->
-    <script src="{{ '/assets/js/freelancer.js' }}"></script>
+    <script src="{{ '/assets/js/freelancer.js' | relative_url }}"></script>
 
     {% if site.contact == "disqus" %}
       <!-- Disqus Stuff -->

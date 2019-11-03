@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- body {
+body {
     overflow-x: hidden;
 }
 
@@ -300,8 +300,6 @@ section.success {
     margin: 0;
     font-size: .85em;
     line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
     opacity: 0;
     -webkit-transition: top .3s ease,opacity .3s ease;
     -moz-transition: top .3s ease,opacity .3s ease;
@@ -447,7 +445,8 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: $theme-secondary-dark !important;
+    background-color: $theme-primary !important;
+    border-radius: .5rem!important;
 }
 
 /* Fix modal mouse wheel issues */
